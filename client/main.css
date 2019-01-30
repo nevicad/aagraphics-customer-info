@@ -47,8 +47,12 @@ button{
   font-size: 18px;
   outline: none;
   margin-right: 13px;
+  cursor: pointer;
 }
 .primary{
   background-color: #3880FF;
   color: white;
+}
+.primary:active{
+  background-color: rgba(56, 129, 255, 0.836);
 }
